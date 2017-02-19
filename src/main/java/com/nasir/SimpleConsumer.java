@@ -38,5 +38,6 @@ public class SimpleConsumer {
                         record.offset(), record.key(), record.value());
         }
     }
+    //bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic HelloKafka1 --from-beginning
 }
 

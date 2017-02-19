@@ -37,4 +37,5 @@ public class SimpleProducer {
         System.out.println("Message sent successfully");
         producer.close();
     }
+    //bin/kafka-console-producer.sh --broker-list localhost:9092 --topic HelloKafka1
 }
